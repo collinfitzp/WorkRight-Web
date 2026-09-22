@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============================================================
+       SEO: TITLE + META DESCRIPTION
+       >>> Change the title and description below to match your
+           business name and how you want to be found on Google. <<<
+  ============================================================ -->
+  <title>Drafted Web Co. — Websites for Local Service Businesses</title>
+  <meta name="description" content="Drafted Web Co. builds and manages professional, mobile-friendly websites for contractors, roofers, plumbers, electricians, and other local service businesses.">
+
+  <!-- Open Graph placeholders — replace URLs once the site is live -->
+  <meta property="og:title" content="Drafted Web Co. — Websites for Local Service Businesses">
+  <meta property="og:description" content="Modern, mobile-friendly websites built and managed for local service businesses.">
+  <meta property="og:type" content="website">
+  <!-- >>> Replace with your live GitHub Pages URL once published <<< -->
+  <meta property="og:url" content="https://YOUR_USERNAME.github.io/YOUR_REPO/">
+  <!-- >>> Replace with a real preview image in assets/images/ <<< -->
+  <meta property="og:image" content="assets/images/og-preview.jpg">
+
+  <!-- >>> Favicon placeholder — add a real favicon.ico or .svg to assets/images/ and update this link <<< -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Fonts: Zilla Slab (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Skip link for keyboard/screen-reader users -->
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ============================================================
+       NAVIGATION
+       >>> Change "Drafted Web Co." to your business name in the
+           logo link below (appears twice: nav + footer). <<<
+  ============================================================ -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary">
+      <a href="#home" class="logo">Drafted Web Co.</a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#examples">Examples</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <!-- >>> Replace YOUR_TALLY_FORM_URL with your real Tally form link <<< -->
+        <a href="YOUR_TALLY_FORM_URL" class="btn btn-primary nav-cta">Get Started</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
+    <section id="home" class="hero">
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Web design for local service businesses</p>
+          <h1>Professional websites for local businesses</h1>
+          <p class="hero-sub">Modern, mobile-friendly websites built and managed for you — so you can focus on running your business, not maintaining a website.</p>
+          <div class="hero-actions">
+            <!-- >>> Replace YOUR_TALLY_FORM_URL with your real Tally form link <<< -->
+            <a href="YOUR_TALLY_FORM_URL" class="btn btn-primary">Get Started</a>
+            <a href="#examples" class="btn btn-ghost">See Examples</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Stylized browser mockup, built entirely with HTML/CSS -->
+          <div class="browser-mock">
+            <div class="browser-bar">
+              <span class="browser-dot"></span>
+              <span class="browser-dot"></span>
+              <span class="browser-dot"></span>
+              <div class="browser-address">yourbusiness.com</div>
+            </div>
+            <div class="browser-body">
+              <div class="mock-nav">
+                <div class="mock-logo"></div>
+                <div class="mock-nav-links">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+              <div class="mock-hero">
+                <div class="mock-line mock-line-lg"></div>
+                <div class="mock-line mock-line-md"></div>
+                <div class="mock-button"></div>
+              </div>
+              <div class="mock-cards">
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+                <div class="mock-card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TRUST / VALUE SECTION
+    ============================================================ -->
+    <section class="value-strip" aria-label="Why clients choose this service">
+      <div class="container value-grid">
+        <div class="value-item">
+          <h2 class="value-title">Professional design</h2>
+          <p>A site that looks intentional and current, not like a generic template.</p>
+        </div>
+        <div class="value-item">
+          <h2 class="value-title">Mobile optimized</h2>
+          <p>Built to work cleanly on phones, tablets, and desktops from the start.</p>
+        </div>
+        <div class="value-item">
+          <h2 class="value-title">Fast loading</h2>
+          <p>Lightweight pages that load quickly for visitors and search engines.</p>
+        </div>
+        <div class="value-item">
+          <h2 class="value-title">Simple process</h2>
+          <p>One short intake form, one point of contact, no confusing back and forth.</p>
+        </div>
+        <div class="value-item">
+          <h2 class="value-title">Ongoing management</h2>
+          <p>Optional monthly plans so your site stays current after it launches.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES SECTION
+    ============================================================ -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>What I offer</h2>
+          <p>Everything needed to get a local service business online with a site that actually represents the work you do.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Website Design</h3>
+            <p>A custom, professional website designed around your business, your services, and how customers find you.</p>
+          </article>
+          <article class="service-card">
+            <h3>Mobile Optimization</h3>
+            <p>Every site is built to work properly across phones, tablets, and desktops — not just resized to fit.</p>
+          </article>
+          <article class="service-card">
+            <h3>Website Management</h3>
+            <p>I handle updates and basic website maintenance so you don't have to learn a content management system.</p>
+          </article>
+          <article class="service-card">
+            <h3>Lead Generation</h3>
+            <p>Pages are structured to get visitors to call, contact you, or request a quote — not just look around.</p>
+          </article>
+          <article class="service-card">
+            <h3>Domain Setup</h3>
+            <p>Help connecting your existing domain, or guidance on registering a new one for your business.</p>
+          </article>
+          <article class="service-card">
+            <h3>Basic SEO</h3>
+            <p>Proper page titles, descriptions, page structure, and other on-page fundamentals, done correctly from launch.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EXAMPLES / PORTFOLIO SECTION
+         >>> Replace placeholder images and DEMO_URL_# links below
+             with your real screenshots and Framer demo links. <<<
+    ============================================================ -->
+    <section id="examples" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Example websites</h2>
+          <p>A few starting-point designs I can customize for your business. Real client sites are tailored further from here.</p>
+        </div>
+
+        <div class="examples-grid">
+          <article class="example-card">
+            <!-- >>> Replace the placeholder below with an actual screenshot, e.g. assets/images/example-1.jpg <<< -->
+            <div class="example-thumb" role="img" aria-label="Placeholder screenshot for the Modern Home Services template">
+              <span>Screenshot placeholder</span>
+            </div>
+            <div class="example-body">
+              <h3>Modern Home Services</h3>
+              <p>Clean, modern design suited to general home service businesses.</p>
+              <!-- >>> Replace DEMO_URL_1 with your real Framer demo link <<< -->
+              <a href="DEMO_URL_1" class="btn btn-outline" target="_blank" rel="noopener">View Demo</a>
+            </div>
+          </article>
+
+          <article class="example-card">
+            <div class="example-thumb" role="img" aria-label="Placeholder screenshot for the Modern Contractor template">
+              <span>Screenshot placeholder</span>
+            </div>
+            <div class="example-body">
+              <h3>Modern Contractor</h3>
+              <p>Professional, contractor-focused layout built to highlight completed work.</p>
+              <!-- >>> Replace DEMO_URL_2 with your real Framer demo link <<< -->
+              <a href="DEMO_URL_2" class="btn btn-outline" target="_blank" rel="noopener">View Demo</a>
+            </div>
+          </article>
+
+          <article class="example-card">
+            <div class="example-thumb" role="img" aria-label="Placeholder screenshot for the Rugged Contractor template">
+              <span>Screenshot placeholder</span>
+            </div>
+            <div class="example-body">
+              <h3>Rugged Contractor</h3>
+              <p>A more industrial, heavy-duty look suited to roofing, construction, and similar trades.</p>
+              <!-- >>> Replace DEMO_URL_3 with your real Framer demo link <<< -->
+              <a href="DEMO_URL_3" class="btn btn-outline" target="_blank" rel="noopener">View Demo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         HOW IT WORKS SECTION
+    ============================================================ -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>How it works</h2>
+          <p>A short, straightforward process from first contact to a live website.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-number" aria-hidden="true">1</span>
+            <h3>Tell me about your business</h3>
+            <p>Complete a short intake form with information about your business, services, branding, and website needs.</p>
+          </li>
+          <li class="step">
+            <span class="step-number" aria-hidden="true">2</span>
+            <h3>I build your website</h3>
+            <p>I create the website using the information and materials you provide.</p>
+          </li>
+          <li class="step">
+            <span class="step-number" aria-hidden="true">3</span>
+            <h3>Review &amp; launch</h3>
+            <p>You review the website and request any agreed-upon revisions before it goes live.</p>
+          </li>
+          <li class="step">
+            <span class="step-number" aria-hidden="true">4</span>
+            <h3>I manage it</h3>
+            <p>If you choose ongoing management, I handle hosting-related upkeep and future basic updates according to the service agreement.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         PRICING SECTION
+         >>> Replace $XXX and $XX with your real pricing once set. <<<
+    ============================================================ -->
+    <section id="pricing" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Pricing</h2>
+          <p>Simple, two-part pricing. Final cost depends on the scope of your project.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Website Setup</h3>
+            <!-- >>> Replace $XXX with your real starting price <<< -->
+            <p class="price">Starting at $XXX</p>
+            <ul class="price-list">
+              <li>Website design</li>
+              <li>Mobile optimization</li>
+              <li>Basic SEO setup</li>
+              <li>Contact / lead functionality</li>
+              <li>Domain connection assistance</li>
+              <li>Initial revisions</li>
+            </ul>
+            <!-- >>> Replace YOUR_TALLY_FORM_URL with your real Tally form link <<< -->
+            <a href="YOUR_TALLY_FORM_URL" class="btn btn-primary">Get Started</a>
+          </article>
+
+          <article class="price-card">
+            <h3>Website Management</h3>
+            <!-- >>> Replace $XX with your real monthly price <<< -->
+            <p class="price">$XX <span>/ month</span></p>
+            <ul class="price-list">
+              <li>Website hosting management</li>
+              <li>Basic content updates</li>
+              <li>Ongoing maintenance</li>
+              <li>Technical support within plan scope</li>
+            </ul>
+            <!-- >>> Replace YOUR_TALLY_FORM_URL with your real Tally form link <<< -->
+            <a href="YOUR_TALLY_FORM_URL" class="btn btn-primary">Get Started</a>
+          </article>
+        </div>
+
+        <p class="pricing-note">Final pricing depends on the scope and requirements of your project.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY WORK WITH ME SECTION
+    ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Why work with an independent designer</h2>
+          <p>Working directly with one person, instead of a large agency, has some practical advantages.</p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-item">
+            <h3>Direct communication</h3>
+            <p>You talk to the person actually building your site, not an account manager.</p>
+          </div>
+          <div class="why-item">
+            <h3>Straightforward pricing</h3>
+            <p>Clear, simple pricing without layers of add-on fees.</p>
+          </div>
+          <div class="why-item">
+            <h3>Focused on practical needs</h3>
+            <p>Websites built around what local businesses actually need — not trends they don't.</p>
+          </div>
+          <div class="why-item">
+            <h3>No unnecessary complexity</h3>
+            <p>No bloated platforms or features you'll never use.</p>
+          </div>
+          <div class="why-item">
+            <h3>Support available</h3>
+            <p>Ongoing support is available if you want your site actively maintained.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION
+    ============================================================ -->
+    <section class="section section-alt about">
+      <div class="container about-inner">
+        <h2>About</h2>
+        <p>I'm a UC Irvine student who works directly with local businesses to build straightforward, professional websites. Instead of dealing with a large agency, you'll communicate directly with the person designing and managing your site — from the first conversation through launch and beyond.</p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ SECTION
+    ============================================================ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Frequently asked questions</h2>
+        </div>
+
+        <div class="faq-list">
+
+          <div class="faq-item">
+            <h3>
+              <button class="faq-question" aria-expanded="false">
+                How long does it take to build a website?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>Timelines depend on the size of the project and how quickly materials and feedback are provided. Exact timelines are discussed after your intake form is reviewed.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button class="faq-question" aria-expanded="false">
+                Do I need to already own a domain?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>No. If you don't already have a domain, I can help guide you through registering one for your business.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button class="faq-question" aria-expanded="false">
+                Can you use my existing domain?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>Yes. If you already own a domain, I can help connect it to your new website.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button class="faq-question" aria-expanded="false">
+                Can I request changes to my website?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>Yes. Revisions are included as outlined in your service agreement, and further changes can be discussed depending on scope.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button class="faq-question" aria-expanded="false">
+                What happens if I cancel the monthly service?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>Cancellation terms are outlined in your service agreement. Specific details will be provided in writing before you sign up.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button class="faq-question" aria-expanded="false">
+                Who owns my domain?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>Domain ownership is determined by your service agreement and will be made clear before your project begins.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <h3>
+              <button class="faq-question" aria-expanded="false">
+                Do you guarantee more customers or higher Google rankings?
+                <span class="faq-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="faq-answer">
+              <p>No. I follow good on-page SEO fundamentals, but no one can guarantee specific search rankings, traffic, or customer results.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FINAL CTA SECTION
+    ============================================================ -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <h2>Ready for a better website?</h2>
+        <p>Tell me about your business and I'll follow up with next steps.</p>
+        <div class="final-cta-actions">
+          <!-- >>> Replace YOUR_TALLY_FORM_URL with your real Tally form link <<< -->
+          <a href="YOUR_TALLY_FORM_URL" class="btn btn-primary">Get Started</a>
+          <!-- >>> Replace YOUR_EMAIL with your real contact email <<< -->
+          <a href="mailto:YOUR_EMAIL" class="btn btn-ghost-inverse">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="logo footer-logo">Drafted Web Co.</p>
+        <!-- >>> Replace YOUR_EMAIL with your real contact email <<< -->
+        <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a>
+      </div>
+
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#examples">Examples</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <ul class="footer-legal">
+        <!-- >>> Replace with real Privacy Policy / Terms links once available <<< -->
+        <li><a href="PRIVACY_POLICY_URL">Privacy Policy</a></li>
+        <li><a href="TERMS_URL">Terms / Service Agreement</a></li>
+      </ul>
+    </div>
+
+    <div class="container footer-bottom">
+      <!-- Copyright year is filled in automatically by js/script.js -->
+      <p>&copy; <span id="year"></span> Drafted Web Co. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
